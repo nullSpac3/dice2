@@ -1,0 +1,87 @@
+:root {
+  --orange: #efaa1f; /* Style Change 3*/
+  --dark: #282930
+} 
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: var(--dark);
+  
+}
+
+
+/* Style Change 2 */
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--orange);
+  font-family: 'Minecraft', sans-serif;
+                                                
+}
+
+h2, h3 {
+  margin: 30px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: var(--orange);
+  font-family: 'American Typewriter', serif;
+                                                
+}
+
+/*Style Change 4*/
+
+h3 {
+  font-size: large;
+  color:aqua;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  color: var(--orange);
+  font-family: 'American Typewriter', serif;
+}
+
+img {
+  width: 80%;
+  background-color: var(--orange);
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+}
+
+
+.btn {
+  width: 150px;
+  height: 50px;
+  margin: 30px;
+  font-size: medium;
+  font-family: 'Minecraft', sans-serif;
+  transition: width 2s, height 2s;
+  
+}
+
+.btn:hover {
+  width: 175px;
+  height: 75px;
+  font-size: large;
+}
+
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'American Typewriter', serif;
+}
